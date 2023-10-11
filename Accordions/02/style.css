@@ -1,0 +1,46 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* General styles */
+*,*::before{
+	margin: 5px;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background-color: #19813a;
+	height: 100vh;
+	color: #fff;
+}
+/* General styles end */
+
+div {
+	max-width: 60rem;
+	margin-inline: auto;
+	padding: 3rem 10px;
+}
+details {
+	border: 3px solid #fff;
+	border-radius: 4px;
+	padding: 10px;
+	cursor: pointer;
+    margin-bottom: 25px;
+}
+.jokes__header-title {
+	font-size: clamp(35px, 6vw, 45px);
+	color: #fff;
+	margin-bottom: 30px;
+}
+summary, details[open] {
+	padding: 10px;
+}
+details[open] summary {
+	border-bottom: 1px solid #fff;
+    padding-top: 10px,10px;
+	margin-bottom: 10px;
+}
+p {
+    margin-left: 30px;
+}
+
